@@ -9,6 +9,7 @@ const guideRoutes = require('./routes/guideRoutes');
 const server = express();
 server.set('view engine', 'ejs');
 server.set('views', [path.join(rootDir, 'views'), path.join(rootDir, 'views/guides')]);
+server.use(express.static(path.join(rootDir, 'public')));
 
 server.use(indexRoute);
 server.use('/guides', guideRoutes);
