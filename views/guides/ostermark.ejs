@@ -1,37 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ostermark Paint Scheme</title>
+<%- include('./partials/head.ejs') %>
+<link rel="stylesheet" href="/css/color-container.css">
+<link rel="stylesheet" href="/css/colors.css">
 </head>
 
 <body>
+  <%- include('./partials/navigation.ejs') %>
   <h1>Ostermark Paint Guide:</h1>
-  <div>
-    <h1>Paints Required:</h1>
-    <ul>
-      <li>Chainmail Silver</li>
-      <li>Mithril Silver</li>
-      <li>Badab Black</li>
-      <li>Tin-Bitz</li>
-      <li>Dwarf Bronze</li>
-      <li>Lich Purple</li>
-      <li>Tau Sept Ochre</li>
-      <li>Vomit Brown</li>
-      <li>Bleached bone</li>
-      <li>Warlock Purple</li>
-      <li>Snakebite leather</li>
-      <li>Devlin Mud</li>
-      <li>Dark Flesh</li>
-      <li>Dwarf Flesh</li>
-      <li>Elf Flesh</li>
-      <li>Enchanted Blue</li>
-      <li>Asriman Blue</li>
-      <li>Ice Blue</li>
-      <li>Skull white</li>
-    </ul>
+  <div class="color-container">
+    <fieldset class="color-container__fieldset">
+      <legend class="color-container__legend">Colors Required</legend>
+      <ul class="color-container__item-list">
+        <% for(let color of palette){ %>
+          <li>
+            <%= color %>
+            <div class="color-container__list-item-color-swatch <%= color.replace(' ', '-').toLowerCase() %>"></div>
+          </li>
+        <% }; %>
+      </ul>
   </div>
 </body>
 
