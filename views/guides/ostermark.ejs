@@ -6,18 +6,7 @@
 <body>
   <%- include('./partials/navigation.ejs') %>
   <h1>Ostermark Paint Guide:</h1>
-  <div class="color-container">
-    <fieldset class="color-container__fieldset">
-      <legend class="color-container__legend">Colors Required</legend>
-      <ul class="color-container__item-list">
-        <% for(let color of palette){ %>
-          <li>
-            <%= color %>
-            <div class="color-container__list-item-color-swatch <%= color.replace(' ', '-').toLowerCase() %>"></div>
-          </li>
-        <% }; %>
-      </ul>
-  </div>
+  <%- include('./partials/color-palette.ejs') %>
 </body>
 
 </html>
