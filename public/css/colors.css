@@ -1,0 +1,41 @@
+:root {
+  --chainmail: #7B737B;
+  --mithril-silver: #B5B5BD;
+  --lich-purple: #5A005A;
+  --tin-bitz: #393121;
+  --dwarf-bronze: #9C5221;
+  --badab-black: #000;
+  --warlock-purple: #9C004A;
+  --tausept-ochre: #976F3C;
+  --vomit-brown: #DE9408;
+  --bleached-bone: #EFD9A8;
+  --devlin-mud: #393121;
+  --snakebite-leather: #9C6B08;
+  --enchanted-blue: #31639C;
+  --asurman-blue: #273E51;
+  --ice-blue: #6B9CCE;
+  --dwarf-flesh: #F78C5A;
+  --dark-flesh: #630808;
+  --elf-flesh: #F7BD7B;
+  --skull-white: #fff;
+}
+
+.chainmail-silver { background-color: var(--chainmail); }
+.mithril-silver { background-color: var(--mithril-silver); }
+.lich-purple { background-color: var(--lich-purple); }
+.tin-bitz { background-color: var(--tin-bitz); }
+.dwarf-bronze { background-color: var(--dwarf-bronze);}
+.badab-black { background-color: var(--badab-black);}
+.warlock-purple { background-color: var(--warlock-purple); }
+.tausept-ochre { background-color: var(--tausept-ochre);}
+.vomit-brown { background-color: var(--vomit-brown);}
+.bleached-bone { background-color: var(--bleached-bone);}
+.devlin-mud { background-color: var(--devlin-mud);}
+.snakebite-leather { background-color: var(--snakebite-leather);}
+.enchanted-blue { background-color: var(--enchanted-blue);}
+.asurman-blue { background-color: var(--asurman-blue);}
+.ice-blue { background-color: var(--ice-blue);}
+.dwarf-flesh { background-color: var(--dwarf-flesh);}
+.dark-flesh { background-color: var(--dark-flesh);}
+.elf-flesh { background-color: var(--elf-flesh);}
+.skull-white { background-color: var(--skull-white);}

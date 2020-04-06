@@ -1,4 +1,13 @@
+:root {
+  --primary-color: #002A33;
+  --secondary-color: #415252;
+  --nav-text-color: #D1D1D1;
+  --tertiary-color: #D1D1D1;
+} 
+
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--primary-color);
+  color: #fff;
 }
